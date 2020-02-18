@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>County Directory</title>
+<link href="jquery-mobile/jquery.mobile.theme-1.3.0.min.css" rel="stylesheet" type="text/css">
+<link href="jquery-mobile/jquery.mobile.structure-1.3.0.min.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap-4.3.1.css" rel="stylesheet" type="text/css">
+<script src="jquery-mobile/jquery-1.11.1.min.js"></script>
+<script src="jquery-mobile/jquery.mobile-1.3.0.min.js"></script>
+</head>
+
+<body style="padding-top: 70px">
+<div data-role="page" id="home">
+  <div data-role="header">
+    <h1>Poapps Counties</h1>
+    <div data-role="navbar">
+	  <ul>
+		  <li display="block" ui-icon="home">Home</li>
+		  <li> About Us</li>
+	    </ul>
+	  </div>
+	    </div>
+	
+	<div data-role="content">County information as per economic block</div>
+	 
+  <ul data-role="listview"  data-inset="true" data-split-icon="arrow-r" data-filter="true" data-filter-placeholder="search county..." data-filter-theme="b">
+    <form action="" method="dialog">  
+    <label>Time <input theme="b" type="datetime-local" value=""></label>  
+    <label>Name <input type="text" aria-valuetext="12" value="" aria-placeholder="Name">
+</label> <br>
+ <label>phone Number <input type="tel" value="" > </label>
+ <label>Message <input type="text"  value="" </label><br>
+ <input type="button" value="Submit">
+ <br> <label> <input type="file"> Upload</label>
+<mark>We are looking at the marked words here this is the </mark>
+
+
+
+
+</form>
+  </ul>
+<div data-role="footer" data-position="fixed">
+    <h4>Footer</h4>
+  </div>
+</div>
+	
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap-4.3.1.js"></script>
+</body>
+</html>

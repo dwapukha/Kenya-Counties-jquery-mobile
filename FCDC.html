@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>NOREB</title>
+<link href="jquery-mobile/jquery.mobile.theme-1.3.0.min.css" rel="stylesheet" type="text/css">
+<link href="jquery-mobile/jquery.mobile.structure-1.3.0.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.accordion.min.css" rel="stylesheet" type="text/css">
+<script src="jquery-mobile/jquery-1.11.1.min.js"></script>
+<script src="jquery-mobile/jquery.mobile-1.3.0.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.accordion.min.js"></script>
+</head>
+
+<body>
+<div data-role="page" id="NOREB" data-add-back-btn="true">
+  <div data-role="header">
+    <h1>Counties by Regions</h1>
+  </div>
+  <div data-role="content">This are the counties.  Content
+	
+	<div  data-role="collapsable" id="Accordion1">
+	  <h3><a href="#"> <Menu:context>Mandera </Menu:context></a></h3>
+	  <div>
+	    <p>There are 6 sub-sounties </p><li> 
+			<ul>Mandera East </ul>
+			<ul> Moiben </ul>
+			<ul>Turbo</ul>	
+			<ul>Soi</ul>	
+							</li>	
+		
+      </div>
+	  <h3><a href="#">Section 2</a></h3>
+	  <div>
+	    <p>Content 2</p>
+      </div>
+	  <h3><a href="#">Section 3</a></h3>
+	  <div>
+	    <p>Content 3</p>
+      </div>
+		 <h3><a href="#">Section 4</a></h3>
+	  <div>
+	    <p>Content 3</p>
+      </div>
+		 <h3><a href="#">Section 5</a></h3>
+	  <div>
+	    <p>Content 5</p>
+      </div>
+		 <h3><a href="#">Section 6</a></h3>
+	  <div>
+	    <p date_modify("${+1 day}"> Content 6</p>
+      </div>
+    </div>
+	  <input type="button" value="Contact US" )>
+  </div>
+  <div data-role="footer" data-position="fixed" >
+    <h4>Counties  Kenya</h4>
+  </div>
+</div>
+<script type="text/javascript">
+$(function() {
+	$( "#Accordion1" ).accordion(); 
+});
+</script>
+</body>
+</html>
